@@ -300,7 +300,7 @@ Contoh hasil rekomendasi untuk User `65674`:
 ```bash
 User ini pernah rating 7 buku
 Buku favorit user (Contoh):
-  - Camp Jupiter Classified: A Probatio's Jo (Rating: 5)
+  - Camp Jupiter Classified: A Probatios Jo (Rating: 5)
   - Every Missing Piece (Rating: 4)
   - Eden Mine (Rating: 3)
 
@@ -376,7 +376,9 @@ Secara keseluruhan, kualitas rekomendasi dapat dinilai cukup baik dengan rata-ra
    * MAE (Mean Absolute Error):
       * Formula: mean(abs(y_true - y_pred))
       * Cara Kerja: Mengukur rata-rata dari nilai absolut perbedaan antara nilai aktual dan nilai prediksi. MAE memberikan gambaran langsung tentang rata-rata seberapa jauh prediksi model dari nilai sebenarnya, tanpa memberikan bobot ekstra pada error besar. Hasilnya juga dalam satuan yang sama dengan variabel target.
+        
 ![image](https://github.com/user-attachments/assets/a8d65141-4beb-4362-9d34-159ea10a41bd)
+
 ```bash
 ==================================================
 REKOMENDASI BUKU
@@ -386,7 +388,7 @@ REKOMENDASI BUKU
 ------------------------------
 User ini pernah rating 7 buku
 Buku favorit user:
-  - Camp Jupiter Classified: A Probatio's Jo (Rating: 5)
+  - Camp Jupiter Classified: A Probatios Jo (Rating: 5)
   - Every Missing Piece (Rating: 4)
   - Eden Mine (Rating: 3)
 
